@@ -24,8 +24,8 @@ const VisionSection = () => {
             icon={<Earth size={36}/>}
           />
         </div>
-
       </div>
+      <TechCard />
     </div>
   );
 };

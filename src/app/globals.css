@@ -43,3 +43,22 @@ body {
     -webkit-text-stroke: 4px black;
   }
 }
+
+@keyframes typing {
+  from {
+    max-width: 0;
+    opacity: 0;
+  }
+  to {
+    max-width: none;
+    opacity: 1;
+  }
+}
+
+.typing-animation {
+  animation: typing 1s ease-in-out forwards;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  margin: 0;
+}

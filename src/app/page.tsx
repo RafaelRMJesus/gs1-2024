@@ -1,9 +1,10 @@
+"use client"
 
 import VisionSection  from "./components/sections/vision";
 import { Navbar } from "./components/navbar";
 import { Introduction } from "./components/sections/introduction";
 import { Footer } from "./components/footer";
-import { TechCard } from "./components/tech-card";
+import { ExampleSection } from "./components/sections/example-section";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       <Navbar />
       <Introduction />
       <VisionSection />
-      <TechCard />
+      <ExampleSection />
       <Footer />
     </div>
   );
